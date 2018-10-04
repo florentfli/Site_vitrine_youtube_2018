@@ -1,0 +1,552 @@
+/*======Pages principales:========*/
+	html {
+		margin: 0;
+		scroll-behavior: smooth;
+	}
+	body{
+		margin:0;
+		font-family: liberation, sans;
+		background-color: #aaa;
+		color : #ccc;
+		text-align: justify;
+	}
+	header{
+		display: block;
+		float: left left;
+		width: 100%;
+		height: 130Px;
+		background-color: #BB3838;
+		/*7a0404 - C35252 - C94040 - BB3838*/
+		margin-bottom: 2px;
+		position: fixed; /* fixed */
+		top: 0px;
+		z-index: 20;
+	}
+	footer{
+		background-color: #BB3838; /*7a0404*/
+		height: 90px;
+		width: 100%;
+		float: left;
+		position: relative;
+		display: block;
+		z-index: 20;
+	}
+	.corps p{
+		font-size: 18px;
+	}
+	h1{
+		font-size: 35px;
+		text-align: center;
+	}
+	h2{
+		padding-top: 130px;
+		padding-bottom: 10px;
+	}
+	h3{
+		padding-top: 40px;
+	}
+	.corps{
+		width: min-content;
+		background-color: #e8dede;
+		box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.65);
+		border-radius: 10px;
+		min-height: 90%;
+	}
+	#paddingPasFlo{
+		margin-left:auto;
+		margin-right:auto;
+		width: 1200px;
+		padding: 10px;
+	}
+	.paddingPartie{
+		padding-top: 130px;
+	}
+	.marginleft{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+
+
+/*==========Header============= IMPORTANT==========*/
+	.TitrePage{
+		height: 80px;
+		width: 100%;
+		font-size: 50px;
+		text-align: center;
+		color: white;
+	}
+	nav ul li p{
+		color: white;
+	}
+	nav ul li .ecritNoir{
+		color: black;
+	}
+
+
+/*=============Footer===========*/
+	.footTxt{
+		color: white;
+		font-size: 0.85em;
+		z-index: 10;
+		position: absolute;
+		bottom: 10px;;
+		text-align: center;
+		width: 100%;
+	}
+/*=============Sommaire===========*/
+aside{
+  position:fixed;
+  display:flex;
+  left:0px;
+  top:130px;
+  bottom:0px;
+  width:10%;
+  background-color: lightgray   ;
+  /*A6A7D1 - A74343*/
+  border-top-right-radius: : 10px;
+  border-top-left-radius: : 10px;
+  border-bottom-right-radius: : 0px;
+  padding-bottom: 500px;
+  box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.65);
+}
+
+a{
+  color:#3A3A3A;
+  text-decoration:none;
+}
+
+.soulign{
+  font-size:18px;
+  text-decoration:underline;
+}
+
+aside ul{
+  margin:0;
+  padding:0px;
+}
+
+aside li{
+  text-align:center;
+  transition-property:background;
+  transition-duration:0.5s;
+  transition-timing-function: linear;
+  padding:15px 0px 15px 0px;
+}
+
+
+li#li1:hover{
+  background-color:#B6B6B6;
+}
+
+li#li2:hover{
+  background-color:#E9E6E6;
+}
+
+.Sommaire{
+  margin:25px 0px 25px 0px;
+  text-align:center;
+}
+/*==========Index-Romain==========*/
+#content{
+	padding-top: 130px;
+	text-align: center;
+	font-size: medium;
+}
+
+#logo{
+	height: 111px;
+	width: 420px;
+}
+
+#logoIUT1{
+	height: 100px;
+	width: 300px;
+	display: inline-block;
+	float:left;
+}
+#logoIUT2{
+	height: 100px;
+	width: 220px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+/*==========Mail==========*/
+	.mail{
+		display: block;
+		float: right;
+		margin: 3%;
+		margin-bottom: 20px;
+	}
+	.form-horizontal{
+		z-index: 10;
+		border: black;
+		margin -left: auto;
+		margin-right: auto;
+		width: 400px;
+		margin-top: 10%;
+		display: block;
+		float: left;
+		width: 50%;
+		height: 50%;
+	}
+	#text{
+		height: 200px;
+		width: 200%;
+	}
+
+/*==================================================================*/
+/*========================envoimail==========================================*/
+.mailEnvoi{
+	display: inline-block;
+	float: left;
+	margin-top: 150px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 500px;
+	padding-top: 20px;
+	background-color: lightgray ;
+	border-radius: 20px;
+
+
+}
+
+
+
+
+/*****************    FLORENT    ****************/
+/********** FLORENT PARTIE FONCTIONNALITE ******/
+
+/*.sous_menu2 a{
+	margin-bottom: 0px;
+}*/
+/*.sous_menu2{
+	position: absolute;
+	display: block;
+	top: 32%;
+	right: 10.5%;
+}*/
+.sous_menu2{
+	position: relative;
+	display: block;
+	float: right;
+	bottom: 0;
+	right: 0;
+}
+
+#lien .pointeur:hover{				/* Pour visualisé les zones au passage de sourie */
+	box-shadow: 0px 0px 20px 5px #555;
+	z-index: 9;
+}
+.pointeur{
+	/*border: 1px solid black;*/   /* Pour visualiser les zones des divs */
+	position: relative;
+	z-index: 10;
+	display: block;
+}
+#recherche{
+	width: 531px;
+	height: 28px;
+	left: 16.1%;
+	margin-top:-63.4%;
+	display: block;
+	float: left;
+	position: relative;
+}
+#abonnement{
+	width: 145px;
+	height: 35px;
+	left: 58%;
+	margin-top: -19%;
+	display: block;
+	float: left;
+}
+#sugestion{
+	width: 320px;
+	height: 700px;
+	left: 71.96%;
+	margin-top: -59%;
+	display: block;
+	float: left;
+}
+#chaine{
+	width: 170px;
+	height: 40px;
+	left: 12.5%;
+	margin-top: -19.2%;
+	display: block;
+	float: left;
+}
+#description{
+	width: 690px;
+	height: 90px;
+	left: 12.5%;
+	margin-top: -16%;
+	display: block;
+	float: left;
+}
+#video{
+	width: 690px;
+	height: 350px;
+	left: 12.95%;
+	margin-top: -58.6%;
+	display: block;
+	float: left;
+}
+#bouton{
+	width: 107px;
+	height: 23px;
+	left: 13%;
+	margin-top: -28.5%;
+	display: block;
+	float: left;
+}
+#parametre{
+	width: 107px;
+	height: 23px;
+	left: 61.5%;
+	margin-top: -28.5%;
+	display: block;
+	float: left;
+}
+#avancement{
+	width: 683px;
+	height: 13px;
+	left: 13.2%;
+	margin-top: -29.4%;
+	display: block;
+	float: left;
+}
+#jaime{
+	width: 130px;
+	height: 40px;
+	left: 46%;
+	margin-top: -23%;
+	display: block;
+	float: left;
+}
+#partage{
+	width: 160px;
+	height: 40px;
+	left: 57%;
+	margin-top: -23%;
+	display: block;
+	float: left;
+}
+#titre{
+	width: 230px;
+	height: 48px;
+	left: 12.5%;
+	margin-top: -25%;
+	display: block;
+	float: left;
+}
+#upload{
+	width: 40px;
+	height: 30px;
+	left: 96.6%;
+	margin-top:-63.5%;
+	display: block;
+	float: left;
+	position: relative;
+}
+#fonctions{
+	width: 35px;
+	height: 30px;
+	left: 1.1%;
+	margin-top:-63.5%;
+	display: block;
+	float: left;
+	position: relative;
+}
+#commentaire{
+	width: 690px;
+	height: 90px;
+	left: 12.5%;
+	margin-top: -8.5%;
+	display: block;
+	float: left;
+}
+.indent{
+	text-indent: 2em;
+}
+.textFonction{
+	background-color: #ccc;
+	border: dashed 2px #aaa;
+	height: 140px;
+	display: block;
+	float: left;
+	color: black;
+	width: 1200px;
+	/*height: 150px;*/
+}
+.textFonction p{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 1%;
+	margin-left: 1%;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: black;
+	text-align: justify;
+	z-index: 20;
+}
+.textFonction h2{
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 4.3%;
+	text-shadow: 3px 3px 10px #555;
+}
+.textFonction h3{
+	font-weight: bold;
+	font-size: 1.25em;
+	margin: 1%;
+	text-shadow: 2px 2px 15px #555;
+}
+
+
+
+
+
+
+
+/* FIN CSS PARTIE FLORENT */
+
+
+/*****************    ELLIOT    ****************/
+.droitMoral,.droitPatrimonial{
+	display: block;
+	background-color: lightgray;
+	border: #333 solid 3px;
+	border-radius: 30px;
+	padding: 5px;
+	width: 400px;
+	min-height: 350px;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
+.ppp{
+	font-weight: bold;
+	font-size: 22px;
+}
+.blocs{
+	width: 100%;
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.LiExcep{
+	display: block;
+	background-color: lightgray;
+	border: #333 solid 3px;
+	padding: 5px;
+	width: 500px;
+	min-height: 200px;
+	float: left;
+	margin-left: 20%;
+	border-radius: 10px;
+}
+.Images{
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+}
+.donotcopy:hover{
+}
+.problemes{
+		display: block;
+		background-color: lightgray;
+		border: #333 solid 3px;
+		padding: 5px;
+		width:100%;
+		min-height: 200px;
+		float: left;
+		margin-left: 5%;
+		margin-bottom: 10%;
+		border-radius: 10px;
+}
+.problemes h3{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+/*****************    ANTOINE    ****************/
+
+.txtEco{
+	color: black;
+}
+.txtEco h4{
+	text-indent: 0.75em;
+	font-weight: bold;
+}
+.tabEco{
+	border: solid 2px black;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	background-color: #eadfdf;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.tabEco td,td{
+	margin:0;
+	border: solid 2px black;
+	/*padding: 0;*/
+	border-collapse: collapse;
+	height: 30px;
+	color:#444;
+	font-weight: bold;
+}
+.divPhoto1{
+	margin-left: 40%;
+	margin-right: 40%;
+	display: inline-block;
+}
+.divPhoto2{
+	margin-left: 25%;
+	margin-right: 13%;
+	display: inline-block;
+}
+.legendeEco{
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+
+
+/*****************    ROMAIN    ****************/
+
+#content{
+	padding-top: 130px;
+	text-align: center;
+	font-size: medium;
+	margin-bottom: 8px;
+}
+
+#logo{
+	height: 111px;
+	width: 490px;
+}
+
+#logoIUT{
+	height: 150px;
+	width: 450px;
+	margin-left: 155px;
+}
+
+#photo{
+	text-align: center;
+	padding-top: 125px;
+}
+
+
+
+/*****************    ALEXANDRE    ****************/
